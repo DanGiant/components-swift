@@ -18,7 +18,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/livekit/client-sdk-swift.git", from: "2.7.0"),
+        .package(url: "https://github.com/GoCode-sg/comms-livekit-client-sdk-swift.git",
+                 branch: "develop"),
         .package(url: "https://github.com/apple/swift-docc-plugin.git", from: "1.4.3"),
     ],
     targets: [
