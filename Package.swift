@@ -18,7 +18,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/GoCode-sg/comms-livekit-client-sdk-swift.git",
+        .package(url: "https://github.com/DanGiant/client-sdk-swift.git",
                  branch: "develop"),
         .package(url: "https://github.com/apple/swift-docc-plugin.git", from: "1.4.3"),
     ],
@@ -26,7 +26,7 @@ let package = Package(
         .target(
             name: "LiveKitComponents",
             dependencies: [
-                .product(name: "LiveKit", package: "comms-livekit-client-sdk-swift"),
+                .product(name: "LiveKit", package: client-sdk-swift"),
             ],
             path: "Sources"
         ),
