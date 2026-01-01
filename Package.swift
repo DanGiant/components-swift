@@ -26,7 +26,7 @@ let package = Package(
         .target(
             name: "LiveKitComponents",
             dependencies: [
-                .product(name: "LiveKit", package: "client-sdk-swift"),
+                .product(name: "LiveKit", package: "comms-livekit-client-sdk-swift"),
             ],
             path: "Sources"
         ),
